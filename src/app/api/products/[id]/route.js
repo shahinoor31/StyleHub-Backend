@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { pool } from "../../../../../lib/db";
 
 const corsHeaders = {
-    "Access-Control-Allow-Origin": "http://localhost:5173",
+    "Access-Control-Allow-Origin": 'https://style-hub-frontend-murex.vercel.app' || 'http://localhost:5173',
     "Access-Control-Allow-Methods": "GET, OPTIONS",
     "Access-Control-Allow-Headers": "Content-Type",
 };
